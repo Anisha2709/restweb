@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <style>
+        .food {
+            margin-left: 20%;
+            display: grid;
+            grid-template-columns: 220px;
+            gap: 20px;
+            width: fit-content;
+
+        }
+
+        .food .items:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 180px;
+            margin-left: 42%;
+            margin-bottom: 2%;
+        }
+
+        .contet_wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .food .items {
+            background: rgb(239, 239, 204);
+            border: 2px;
+            border-radius: 15px;
+            width: 350;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 3px 5px 3px rgb(71, 65, 65);
+            gap: 55px;
+            font-size: 25;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        con {
+            margin-left: 30%;
+            text-shadow: 3px 2px rgb(196, 164, 35);
+            color: aliceblue;
+            font-size: 50;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <pre><img src="tand.jpg">
+        <con>TANDOORI</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">TANDOORI CHICKEN</div>
+            <div class="items">TANDOORI SHRIMP</div>
+            <div class="items">TANDOORI BEEF</div>
+            <div class="items">VEGGIE TANDOORI</div>
+        </div>
+    </div><br><br>
+    <pre><img src="biri.jpg">
+        <con>BIRIYANI</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">VEGGIE BIRIYANI</div>
+            <div class="items">CHICKEN BIRIYANI</div>
+            <div class="items">KOLKATA BIRIYANI</div>
+            <div class="items">SINDHI BIRIYANI</div>
+        </div>
+    </div><br><br>
+    <pre><img src="kulfi.jpg">
+            <con>KULFI</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">SAFFRON KULFI</div>
+            <div class="items">GULAB JAMUN</div>
+            <div class="items">PISTACHIO KULFI</div>
+        </div>
+    </div>
+</body>
+
+</html>

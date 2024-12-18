@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <style>
+        .food {
+            margin-left: 10%;
+            display: grid;
+            grid-template-columns: 220px;
+            gap: 20px;
+            width: fit-content;
+        }
+
+        .food .items {
+            background: rgb(239, 239, 204);
+            border: 2px;
+            border-radius: 15px;
+            width: 350;
+            text-align: center;
+            padding: 25px;
+            box-shadow: 3px 5px 3px rgb(71, 65, 65);
+            font-size: 25;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contet_wrapper {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        img {
+            width: 180px;
+            margin-left: 36%;
+            margin-bottom: 2%;
+        }
+        .food .items:hover {
+            transform: scale(1.2);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        con {
+            margin-left: 5%;
+            text-shadow: 3px 2px rgb(196, 164, 35);
+            color: aliceblue;
+            font-size: 50;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: fit-content;
+        }
+    </style>
+</head>
+
+<body background=>
+    <br><br>
+    <pre><img src="appe.jpg">
+            <con>  APPETIZERS</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">VEGETABLE SAMOSA</div>
+            <div class="items">LAMB SAMOSA</div>
+            <div class="items">EGGPLANT PAKORA</div>
+            <div class="items">CHICKEN PAKORA</div>
+        </div>
+    </div><br><br>
+    <pre><img src="sides.jpg">
+            <con>SIDES & BREADS</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">MANGO PESAREL</div>
+            <div class="items">BUTTER NAAN</div>
+            <div class="items">GARLIC NAAN</div>
+            <div class="items">KEEMA NAAN</div>
+        </div>
+    </div><br><br>
+    <pre><img src="vege.jpg">
+            <con>  VEGETABLES</con></pre>
+    <div class="contet_wrapper">
+        <div class="food">
+            <div class="items">SAAG PANEER</div>
+            <div class="items">SAAG ALOO</div>
+            <div class="items">VEGGIE CURRY</div>
+        </div>
+    </div>
+</body>
+
+</html>
